@@ -1,0 +1,425 @@
+html{
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    justify-items: flex-start;
+    border-radius: 12px;
+    background-image: url("../img/copialogo.jpg");
+}
+.ocultar{
+    display: none;
+}
+.fig-header{
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.h-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 8px 0px 18px;
+}
+.redes-sociales{
+    display: flex;
+    margin-block-start: inherit;
+    margin-block-end: inherit;
+    margin-inline-start: inherit;
+    margin-inline-end: inherit;
+}
+body{
+    margin: 0px;
+    background-color: rgb(240, 236, 230);
+}
+.logo{
+    width: 160px; 
+    border-radius: 10px;  
+}
+.h-header h1, h2{
+    margin: 15px 0px;
+}
+h1{
+    font-size: 55px; 
+    font-style: oblique; 
+}
+h2{
+    font-size: 32px ;
+    font-style: italic;
+}
+h3{
+    font-size: 27px;
+    font-weight: 900;
+}
+h4{
+    font-size: 18px;
+    font-weight: 600;
+}
+.iconos{
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    margin: 4px;
+}
+.menu{
+    width: 100%;
+}
+.navegador ul, li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu nav ul li a{
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: inherit;
+}
+.spanicono{
+    margin-right: 10px;
+}
+.navegador ul li{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.863);
+}
+.menu-bar{
+    width: 100%;
+}
+.navegador{
+    width: 50%;
+    margin: 0;
+    position: absolute;
+    background-color: rgb(230, 176, 16);
+    left: -100%;
+}
+.menu-left{
+    left: 0;
+}
+.menu .bt-menu{
+    display: block;
+    padding: 20px;
+    background-color: rgb(230, 176, 16);
+    border-radius: 8px;
+    border-bottom: 3px solid rgb(138, 103, 39);
+    border-right: 3px solid rgb(138, 103, 39);
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 25px;
+}
+.a-link{
+    text-decoration: underline;
+    color: blue;
+}
+.pie{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(230, 176, 16);
+    padding: 0px 10px;
+    border-radius: 10px;
+    border-right: 3px solid rgb(138, 103, 39);
+    border-bottom: 3px solid rgb(138, 103, 39);
+}
+.logopie{
+    border-radius: 10px;
+    width: 48px;
+    margin: 2px;
+}
+.main-index{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 10px 10px;
+}
+.article-index{
+    display: flex;
+    flex-wrap: wrap;
+}
+.article-index img{
+    padding: 5px;
+}
+.section-index{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    background-color: cornsilk;
+    padding: 0px 10px 10px 10px;
+    margin: 3px 0px;
+}
+.figure-conos, .figure-sahumerios, .figure-cajas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+.cajas, .conos, .sahumerios{
+    width: 220px;
+}
+.main-product{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 10px 10px 10px;
+}
+.lista_de_aromas{ 
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-column-gap: 4px;
+    grid-row-gap: 4px;
+    border-radius: 5px;
+    animation: pulse 60s infinite;
+}
+.lista_de_aromas ul{
+    padding-inline-start: 5px;
+}
+.lista_de_aromas li{
+    list-style: none;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+@keyframes pulse {
+    0% {
+      background-color: orange; 
+    }
+    20% {
+      background-color: red;
+    }
+    40% {
+      background-color: lightblue;
+    }
+    60% {
+      background-color: violet;
+    }
+    80% {
+      background-color: green;
+    }
+    100% {
+      background-color: brown;
+    }
+}
+.tipodearoma{
+    font-weight: 600;
+    font-size: 20px;
+}
+table{
+    background-color: lightgray;
+    border-radius: 5px;
+    border-collapse: collapse;
+    max-width: 700px;
+}
+td{
+    padding: 3px 5px ;
+}
+thead{
+    font-weight: 600;
+    font-size: 18   px;
+    color: black;
+}
+.li-product{
+    padding: 0px;
+    margin: 0px 0px 0px 10px;
+}
+.main-contacto{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 5px;
+}
+.datos ul{
+    padding-inline-start: 15px;
+}
+.li-datos{
+    margin: 10px 20px;
+}
+.contacto{
+    display: flex;
+    margin: 0px 10px 10px 10px;
+}
+.label{
+    font-size: 16px;
+    margin: 15px;
+    font-weight: 700;
+}
+.info-input{
+    margin: 10px;
+    display: block;
+}
+button{
+    cursor: pointer;
+    margin-top: 5px;
+    margin-left: 8px;
+}
+.t-precios tr td{
+    background-color: blanchedalmond;
+    border: solid black;
+    border-collapse: collapse;
+}
+.respuesta{
+    margin: 10px;
+}
+.google-maps{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8px;
+}
+.pedido{
+    margin: 20px 0px;
+}
+.color10{
+    background-color: rgba(83, 235, 45, 0.459);
+}
+.color20{
+    background-color: rgba(50, 168, 21, 0.733);
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+.inputs div{
+    margin-bottom: 10px;
+}
+@media only screen and (min-width: 720px){
+    .section-index{
+        box-shadow: 15px 10px 10px rgba(66, 65, 55, 0.61);
+    }
+    .lista_de_aromas{
+        box-shadow: 15px 10px 10px grey;
+    }
+    .encabezado{
+        display: grid;
+        grid-template-columns: 2fr 3fr;
+    }
+    .div-titulo2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu-bar{
+        display: none;
+    }
+    .navegador{
+        position: relative;
+        width: 100%;
+        margin: 0;
+        left: 0;
+        border-radius: 10px;
+    }
+    .menu nav ul{
+        width: 100%;
+        overflow: none;
+        display: flex;
+        margin: 0px;
+        padding: 3px 0px;
+        display: flex;
+        justify-content: start;
+        background-color: rgb(230, 176, 16);
+        border-radius: 8px;
+        border-bottom: 3px solid rgb(138, 103, 39);
+        border-right: 3px solid rgb(138, 103, 39);
+    }
+    .menu nav ul li a{
+        text-decoration: none;
+        display: block;
+        margin: 3px 10px;
+        padding: 2px 5px;
+        border-radius: 6px;
+        border-bottom: 2px solid rgb(138, 103, 39);
+        border-right: 2px solid rgb(138, 103, 39); 
+    }
+    .navegador ul li{
+        overflow: none;
+        border-bottom: none;
+        list-style: none;
+        font-style: normal;
+        font-weight: bold;
+        border-radius: 6px;
+        margin: 3px 5px;
+        padding: 2px 5px;
+        font-size: 20px;
+        font-weight: 500; 
+        background-color: rgb(230, 176, 16);  
+        max-width: 250px;
+    }
+    .lista_de_aromas{
+        padding-left: 15px;
+        max-width: 600px;
+    }
+    body{
+        padding: 10px;
+    }
+    .main-index, .main-product, .main-contacto{
+        padding-left: 10px;
+    }
+    .main-contacto{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    .google-maps{
+        max-width: 500px;
+    }
+    .article-index{
+        display: flex;
+        flex-direction: row;
+    }
+    .figure-cajas, .figure-conos, .figure-sahumerios{
+        flex-direction: row;
+    }
+    .figure-conos{
+        padding-bottom: 90px;
+    }
+    .section-index{
+        max-width: 500px;
+        margin: 15px;
+    }
+    .inputs{
+        display: flex;
+        flex-direction: row;
+    }
+    .inputs div{
+        margin-right: 20px;
+        margin-bottom: 20px;
+    }
+    thead{
+        font-size: 20px;
+    }
+    .logopie{
+        width: 35px;
+    }
+    .formulariproducto{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+    .formulariproducto input{
+        margin: 2px;
+    }
+    .formulariproducto label{
+        font-size: large;
+        margin: 4px;
+    }
+    .borrar_producto{
+        text-decoration: none;
+        color: inherit;
+    }
+    .ocultar{
+        display: none;
+    }
+    .btn_sesion{
+        display: flex;
+        justify-content: center;
+    }
+    .msj_error{
+        color: red;
+    }
+}
